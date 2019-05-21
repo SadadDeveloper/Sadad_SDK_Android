@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
 //apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.SadadDeveloper'
 
 buildscript {
     repositories {
@@ -8,6 +10,7 @@ buildscript {
     }
     dependencies {
 //        classpath 'com.jakewharton:butterknife-gradle-plugin:10.1.0'
+classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 android {
