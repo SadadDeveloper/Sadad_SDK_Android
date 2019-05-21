@@ -1,16 +1,15 @@
 apply plugin: 'com.android.library'
 //apply plugin: 'com.jakewharton.butterknife'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.SadadDeveloper'
+group = 'com.github.SadadDeveloper'
 
 buildscript {
     repositories {
         mavenCentral()
-        google()
     }
     dependencies {
 //        classpath 'com.jakewharton:butterknife-gradle-plugin:10.1.0'
-classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 android {
@@ -47,14 +46,14 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'androidx.appcompat:appcompat:1.1.0-alpha04'
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
     testImplementation 'junit:junit:4.13-beta-2'
-    androidTestImplementation 'androidx.test:runner:1.2.0-alpha04'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0-alpha04'
+    androidTestImplementation 'androidx.test:runner:1.2.0-beta01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0-beta01'
 
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha5'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta1'
     //material design support
-    implementation 'com.google.android.material:material:1.1.0-alpha05'
+    implementation 'com.google.android.material:material:1.1.0-alpha06'
     // for multiple screen resolution, refer link : https://github.com/intuit/sdp
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     // for binding views with activity or fragments, refer link : https://github.com/JakeWharton/butterknife
