@@ -58,9 +58,6 @@ How to Use ?
 
 	SadadService.getProductionService();
 
-	if you want to use sandbox then initiate
-	SadadService.getSandboxService();
-
 	3) Create Transaction.
 
 	SadadService.createTransaction(HomeActivity.this, sadadOrder, new TransactionCallBack() {
