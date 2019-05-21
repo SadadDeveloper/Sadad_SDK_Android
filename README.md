@@ -18,9 +18,8 @@ Steps to Integration :
     dependencies {
         implementation 'com.github.SadadDeveloper:Sadad_SDK_Android:latest-version'
     }
-	
-	
-	How to Use ?
+    
+How to Use ?
 
 	1) Prepare sadad Order.
 
