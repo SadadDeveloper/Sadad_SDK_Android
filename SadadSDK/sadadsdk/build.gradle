@@ -66,27 +66,35 @@ dependencies {
 
 }
 
-// build a jar with source files
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
-}
-
 task javadoc(type: Javadoc) {
-    failOnError  false
-    source = android.sourceSets.main.java.sourceFiles
+
+    description "Generates Javadoc for ${archivesBaseName}-${version} API"
+    group JavaBasePlugin.DOCUMENTATION_GROUP
+
+    title = "${archivesBaseName}-${version} API References"
+
+//    source android.sourceSets.main.java.srcDirs, configurations.doc.collect { zipTree(it) }
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-    classpath += configurations.compile
+
+    options {
+        memberLevel = JavadocMemberLevel.PUBLIC
+        linksOffline('http://developer.android.com/reference/', "${android.sdkDirectory}/docs/reference");
+    }
+
+    include '<path of your public api>/*.java'
+    exclude '**/BuildConfig.java'
+    exclude '**/R.java'
+    exclude '**/test/**/*.java'
+
+    failOnError false
 }
 
-// build a jar with javadoc
-task javadocJar(type: Jar, dependsOn: javadoc) {
+task androidJavadocsJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'
     from javadoc.destinationDir
 }
 
 artifacts {
-    archives sourcesJar
-    archives javadocJar
+    archives androidJavadocsJar
 }
 

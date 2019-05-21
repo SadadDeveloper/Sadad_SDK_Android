@@ -49,7 +49,7 @@ public class SadadService implements TransactionCallBack {
         mTransactionCallBack.onTransactionFailed(errorJson);
     }
 
-    public static void getSandboxService() {
+    private static void getSandboxService() {
 
         serverUrl = ServerConfig.SERVER_SANDBOX_URL;
         creditUrl = ServerConfig.CREDIT_CARD_SANDBOX_URL;
@@ -65,7 +65,7 @@ public class SadadService implements TransactionCallBack {
         sadadLoginUrl = ServerConfig.SADAD_LOGIN_LIVE_URL;
     }
 
-    public static void getTestService() {
+    private static void getTestService() {
 
         serverUrl = ServerConfig.SERVER_TEST_URL;
         creditUrl = ServerConfig.CREDIT_CARD_TEST_URL;
@@ -73,7 +73,7 @@ public class SadadService implements TransactionCallBack {
         sadadLoginUrl = ServerConfig.SADAD_LOGIN_TEST_URL;
     }
 
-    public static void getLocalService() {
+    private static void getLocalService() {
 
         serverUrl = ServerConfig.SERVER_LOCAL_URL;
         creditUrl = ServerConfig.CREDIT_CARD_LOCAL_URL;
