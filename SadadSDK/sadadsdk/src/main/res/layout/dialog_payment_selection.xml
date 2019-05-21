@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".paymentselection.PaymentSelectionActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33000000"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drw_corner_white"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingTop="@dimen/_3sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_3sdp">
+
+                <com.sadadsdk.utils.ButtonRobotoRegular
+                    android:id="@+id/btnCancel"
+                    style="@style/verySmallWhiteText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:onClick="onClick"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:text="@string/str_cancel"
+                    android:textAllCaps="false"
+                    android:theme="@style/buttonStyle" />
+
+                <com.sadadsdk.utils.TextViewRobotoBold
+                    style="@style/smallWhiteText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/str_select_payment_method"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:background="@color/colorGrey" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/llCreditCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:theme="@style/buttonStyle">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/drw_border_line_square_grey"
+                    android:padding="@dimen/_5sdp"
+                    app:srcCompat="@drawable/ic_visa_mastercard" />
+
+                <com.sadadsdk.utils.TextViewRobotoBold
+                    style="@style/smallWhiteText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:text="@string/str_credit_card"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@color/colorGrey" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/llDebitCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:theme="@style/buttonStyle">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/drw_border_line_square_grey"
+                    android:padding="@dimen/_5sdp"
+                    app:srcCompat="@drawable/ic_debit_card" />
+
+                <com.sadadsdk.utils.TextViewRobotoBold
+                    style="@style/smallWhiteText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:text="@string/str_debit_card"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@color/colorGrey" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/llPaySadad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:theme="@style/buttonStyle">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/drw_border_line_square_grey"
+                    android:padding="@dimen/_5sdp"
+                    app:srcCompat="@drawable/ic_sadad_new_logo" />
+
+                <com.sadadsdk.utils.TextViewRobotoBold
+                    style="@style/smallWhiteText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:text="@string/str_pay_sadad"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

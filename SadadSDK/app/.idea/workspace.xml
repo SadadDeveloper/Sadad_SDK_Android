@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.2.0-alpha03</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>converter-scalars</name>
+        <version>2.5.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.2.0-alpha03</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.jakewharton</group-id>
+        <name>butterknife-compiler</name>
+        <version>10.1.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.jakewharton</group-id>
+        <name>butterknife</name>
+        <version>10.1.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>converter-gson</name>
+        <version>2.5.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.material</group-id>
+        <name>material</name>
+        <version>1.1.0-alpha05</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.multidex</group-id>
+        <name>multidex</name>
+        <version>2.0.1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.constraintlayout</group-id>
+        <name>constraintlayout</name>
+        <version>2.0.0-alpha4</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>retrofit</name>
+        <version>2.5.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-2</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0-alpha04</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1555574886467</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a544704c-0faa-4d71-a72d-ea8e8ef628c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_beta01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_alpha01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_beta01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_concurrent_concurrent_futures_1_0_0_alpha02_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_0_alpha4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_alpha4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_alpha05_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_alpha04_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_alpha04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_alpha05_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_10_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_10_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_runtime_10_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_beta_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sadadsdk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sadadsdk/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sadadsdk/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sadadsdk/src/androidTest/java/com/sadadsdk/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sadadsdk/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sadadsdk/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sadadsdk/src/test/java/com/sadadsdk/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/adapters/ExpirationDateItemAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardNumberTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardholderNameEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CustomerNameEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CvvEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateDialogTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/MobileNumberEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardpayment/CardFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/listener/OnBackPressedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/listener/TokenReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/listener/TransactionCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/loginwithsadad/SadadFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/model/SadadOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/model/Tokenization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/model/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/PaymentSelectionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/SadadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/transaction/BankFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/transaction/JavaScriptInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ButtonRobotoBold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ButtonRobotoRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ColorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/CustomDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/DateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ErrorEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/PrefUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/SlashSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/SpaceSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/TextViewRobotoBold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/TextViewRobotoRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ToastUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/VibrationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ViewUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_answers_1_4_7_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_beta_1_2_10_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_2_9_9_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_core_2_6_8_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_8_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_8_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_intuit_sdp_sdp_android_1_0_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_intuit_sdp_sdp_android_1_0_6_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_8_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_8_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_fabric_sdk_android_fabric_1_4_8_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidTest/java/com/sadadqa/sadadsdk/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidTest/java/com/a/sadadsdk/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/api/ApiInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/api/ApiList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/api/DataObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/api/RequestCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/api/RequestMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/api/ResponseManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/api/ServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/base/BaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/base/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/home/HomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/utils/ButtonRobotoBold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/utils/ButtonRobotoRegular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/utils/CustomDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/utils/Debug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/utils/TextViewRobotoBold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/utils/TextViewRobotoRegular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/a/sadadsdk/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sadadqa/sadadsdk/cardpayment/CardActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-anydpi/ic_left_arrow_white.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_camera_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_card_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_cardholder_name_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_mobile_number_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_postal_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_postal_code_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bt_ic_unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_left_arrow_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_camera_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_card_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_cardholder_name_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_mobile_number_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_postal_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_postal_code_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/bt_ic_unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_left_arrow_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_camera_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_card_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_cardholder_name_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_mobile_number_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_postal_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_postal_code_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/bt_ic_unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_left_arrow_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_camera_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_card_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_cardholder_name_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_mobile_number_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_postal_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_postal_code_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/bt_ic_unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_left_arrow_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_camera_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_card_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_cardholder_name_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_mobile_number_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_postal_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_postal_code_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/bt_ic_unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_camera_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_card_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_cardholder_name_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_mobile_number_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_postal_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_postal_code_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bt_ic_unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/drw_btn_ripple_marron.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/drw_btn_ripple_white.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/drw_gradient_light_to_dark_maroon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_card.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sadad_web_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/appbar_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_dialog_no_internet_connection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/custom_dialog_no_internet_connection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_dialog_progress_update.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/custom_dialog_progress_update.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/dimen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/dimen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sadadqa/sadadsdk/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/a/sadadsdk/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/adapters/ExpirationDateItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/api/ApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/api/RestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/base/SdkApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/CardEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/CardNumberTransformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/CardType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/CardholderNameEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/CustomerNameEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/CvvEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/ExpirationDateDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/ExpirationDateDialogTheme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/ExpirationDateEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardform/MobileNumberEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardpayment/CardFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/listener/OnBackPressedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/listener/TokenReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/listener/TransactionCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/loginwithsadad/SadadFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/model/BaseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/model/SadadOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/model/Tokenization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/model/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/paymentselection/PaymentSelectionActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/paymentselection/SadadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/transaction/BankFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/transaction/JavaScriptInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/ColorUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/DateValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/ErrorEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/PrefUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/SlashSpan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/SpaceSpan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/ToastUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/VibrationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/ViewUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/java/com/sadadqa/sadadsdk/utils/WebUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/anim/bt_error_animation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/anim/bt_expiration_date_dialog_close.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/anim/bt_expiration_date_dialog_open.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-anydpi/ic_date.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-anydpi/ic_lock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_amex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_cardholder_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_diners_club.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_jcb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_mobile_number.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_unionpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/bt_ic_visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/ic_date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-hdpi/ic_lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_amex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_cardholder_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_diners_club.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_jcb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_mobile_number.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_unionpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/bt_ic_visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/ic_date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-mdpi/ic_lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_amex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_cardholder_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_diners_club.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_jcb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_mobile_number.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_unionpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/bt_ic_visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/ic_date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xhdpi/ic_lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_amex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_cardholder_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_diners_club.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_jcb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_mobile_number.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_unionpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/bt_ic_visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/ic_date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxhdpi/ic_lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_amex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_cardholder_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_diners_club.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_jcb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_mobile_number.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_unionpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable-xxxhdpi/bt_ic_visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_amex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_cardholder_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_diners_club.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_jcb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_mobile_number.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_unionpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/bt_ic_visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/drw_border_line_square_grey.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/drw_corner_white.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/ic_bg_intro_building.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/ic_debit_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/ic_sadad_new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/drawable/ic_visa_mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/layout/activity_payment_selection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/layout/bt_expiration_date_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/layout/bt_expiration_date_sheet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/layout/dialog_payment_selection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/layout/fragment_bank.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/layout/fragment_card.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/layout/fragment_sadad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sadadsdk/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="34" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/loginwithsadad/SadadFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/PaymentSelectionActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/SadadService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/home/HomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="66" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="66" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/transaction/JavaScriptInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/api/ServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.a.sadadsdk</find>
+      <find>TextViewRobotoBold</find>
+      <find>com.sadadqa.sadadsdk.utils.ButtonRobotoBold</find>
+      <find>com.sadadqa.sadadsdk.utils.ButtonRobotoRegular</find>
+      <find>com.sadadqa.sadadsdk.utils.TextViewRobotoBold</find>
+      <find>com.sadadqa.sadadsdk.utils.TextViewRobotoRegular</find>
+      <find>payment</find>
+      <find>colorDarkMaroon</find>
+      <find>backgroundGreenColor</find>
+      <find>str_ok</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/base/MyApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/api/RestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/api/ApiClient.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/sadadsdk/api/ApiList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/PrefUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/SadadService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateEditText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateDialogTheme.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardholderNameEditText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardEditText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CvvEditText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/MobileNumberEditText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CustomerNameEditText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/model/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/transaction/BankFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/model/Tokenization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/transaction/JavaScriptInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/WebUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ViewUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ToastUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/CustomDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/TextViewRobotoBold.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ErrorEditText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/TextViewRobotoRegular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ButtonRobotoRegular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/model/SadadOrder.java" />
+        <option value="$PROJECT_DIR$/../settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ButtonRobotoBold.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/custom_dialog_no_internet_connection.xml" />
+        <option value="$PROJECT_DIR$/sadadsdk/src/main/res/layout/custom_dialog_no_internet_connection.xml" />
+        <option value="$PROJECT_DIR$/sadadsdk/src/main/res/layout/dialog_payment_selection.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/dialog_payment_selection.xml" />
+        <option value="$PROJECT_DIR$/sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardpayment/CardFragment.java" />
+        <option value="$PROJECT_DIR$/sadadsdk/src/main/res/layout/fragment_card.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/home/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/cardpayment/CardFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/PaymentSelectionActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_card.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/../build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/adapters/ExpirationDateItemAdapter.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sadadsdk/loginwithsadad/SadadFragment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="device.picker.selection" value="5.1_WVGA_API_22" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/sadadsdk" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sadadsdk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sadadsdk/utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/sadadsdk" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sadadsdk" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="sadadsdk" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a544704c-0faa-4d71-a72d-ea8e8ef628c0" name="Default Changelist" comment="" />
+      <created>1555572306561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555572306561</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="43" y="0" width="1323" height="768" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.20673454" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" weight="0.4778481" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Find" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Build" weight="0.3022152" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Assistant" weight="0.42129993" />
+      <window_info anchor="right" id="Android WiFi ADB" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Preview" weight="0.32498044" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/ExpirationDateDialogTheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardholderNameEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1175#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="118" column="38" selection-start-line="118" selection-start-column="38" selection-end-line="118" selection-end-column="38" />
+          <folding>
+            <element signature="e#4369#4425#0" expanded="true" />
+            <element signature="e#4463#4518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CvvEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+          <folding>
+            <element signature="e#2899#2938#0" expanded="true" />
+            <element signature="e#3119#3185#0" expanded="true" />
+            <element signature="e#3223#3288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/MobileNumberEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="e#1588#1646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/model/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/transaction/BankFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/model/Tokenization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="39" column="99" selection-start-line="39" selection-start-column="99" selection-end-line="39" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ViewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ToastUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="219" column="9" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9047#9110#0" expanded="true" />
+            <element signature="e#9272#9335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/CustomDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CardType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#329#0" expanded="true" />
+            <element signature="e#337#359#0" expanded="true" />
+            <element signature="e#508#523#0" expanded="true" />
+            <element signature="e#531#555#0" expanded="true" />
+            <element signature="e#676#691#0" expanded="true" />
+            <element signature="e#699#725#0" expanded="true" />
+            <element signature="e#822#837#0" expanded="true" />
+            <element signature="e#845#886#0" expanded="true" />
+            <element signature="e#1007#1022#0" expanded="true" />
+            <element signature="e#1030#1059#0" expanded="true" />
+            <element signature="e#1151#1166#0" expanded="true" />
+            <element signature="e#1174#1190#0" expanded="true" />
+            <element signature="e#1340#1355#0" expanded="true" />
+            <element signature="e#1379#1399#0" expanded="true" />
+            <element signature="e#1501#1516#0" expanded="true" />
+            <element signature="e#1524#1546#0" expanded="true" />
+            <element signature="e#1640#1655#0" expanded="true" />
+            <element signature="e#1663#1683#0" expanded="true" />
+            <element signature="e#1773#1788#0" expanded="true" />
+            <element signature="e#1796#1816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ErrorEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/model/SadadOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ColorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_payment_selection.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ButtonRobotoBold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/ButtonRobotoRegular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadadsdk/src/main/java/com/sadadqa/sadadsdk/cardpayment/CardFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadadsdk/src/main/java/com/sadadqa/sadadsdk/paymentselection/PaymentSelectionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/api/ApiClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/api/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/TextViewRobotoRegular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardpayment/CardFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="113" column="50" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6987#7036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/cardform/CustomerNameEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/utils/TextViewRobotoBold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_card.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/attr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/dimen.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="39" column="82" lean-forward="true" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-835" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/adapters/ExpirationDateItemAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/api/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/PaymentSelectionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/paymentselection/SadadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/loginwithsadad/SadadFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/home/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sadadsdk/transaction/JavaScriptInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">SadadSDK</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_select_payment_method">Select Payment Method</string>
+    <string name="str_credit_card">Credit Card</string>
+    <string name="str_debit_card">Debit Card</string>
+    <string name="str_pay_sadad">Pay Sadad</string>
+    <string name="str_try_again">TRY AGAIN</string>
+    <string name="str_no_internet_connection_found_check_your_connection_or_try_again">No internet connection found. Check your connection or try again</string>
+    <string name="str_whoops">Whoops!</string>
+    <string name="bt_cvc">CVC</string>
+    <string name="bt_cvv">CVV</string>
+    <string name="bt_cid">CID</string>
+    <string name="bt_cvn">CVN</string>
+    <string name="bt_card_number_required">Card number is required</string>
+    <string name="bt_card_number_invalid">Card number is invalid</string>
+    <string name="bt_expiration_invalid">Expiration date is invalid</string>
+    <string name="bt_expiration_required">Expiration date is required</string>
+    <string name="bt_month">Month</string>
+    <string name="bt_year">Year</string>
+    <string name="str_pay">Pay</string>
+    <string name="str_card_details">Card Details</string>
+    <string name="str_payable_amount">Payable Amount</string>
+    <string name="str_enter_your_card_details"><![CDATA[Enter your card details starting <br><b>with the card number</b>]]></string>
+    <string name="str_card_number">Card Number</string>
+    <string name="str_expiry_date">Expiry Date</string>
+    <string name="str_card_holder_name">Card Holder Name</string>
+    <string name="str_phone_number">Phone Number</string>
+    <string name="str_customer_name">Customer Name</string>
+    <string name="bt_cvv_invalid">%s is invalid</string>
+    <string name="bt_cvv_required">%s is required</string>
+    <string name="bt_mobile_number_required">Mobile number is required</string>
+    <string name="bt_cardholder_name_required">Cardholder name is required</string>
+    <string name="bt_customer_name_required">Customer name is required</string>
+    <string name="str_sadad_app_is_not_enabled">Sadad app is not enabled. Please enable from app settings</string>
+    <string name="str_ws_network">Sorry for the inconvenience, We are facing some internal issues. Please try again later.</string>
+    <string name="str_no_internet_connection_available">No internet connection available</string>
+    <string name="str_click_back_again">Please click BACK again to exit</string>
+
+    <string name="str_Visa_card">Visa</string>
+    <string name="str_Master_card">Mastercard</string>
+    <string name="str_Amex_Corporate_Purchase_card">AmexPurchaseCard</string>
+    <string name="str_Diners_Club_card">Dinersclub</string>
+    <string name="str_Discover_card">Discover</string>
+    <string name="str_Jcb">JCB</string>
+    <string name="str_Maestro">Maestro</string>
+    <string name="str_Union_pay">UnionPay</string>
+    <string name="str_Unknown">Unknown</string>
+    <string name="str_payment_cancelled_by_user">Payment cancelled by user</string>
+    <string name="str_transaction_failed">Transaction failed</string>
+    <string name="str_invalid_checksum">Invalid Checksum</string>
+    <string name="str_ok">OK</string>
+
+    <string name="str_payment_success">Payment - Success</string>
+    <string name="str_date_and_time_with_colon">Date and Time :</string>
+    <string name="str_receiver_name_with_colon">Receiver Name :</string>
+    <string name="str_transaction_id_with_colon">Transaction ID :</string>
+    <string name="str_done">Done</string>
+    <string name="str_payment_failed">Payment - Failed</string>
+
+</resources>
