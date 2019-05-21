@@ -38,18 +38,18 @@ How to Use ?
 
 	//building product details e.g. product name, product quantity, product amount
 	JSONArray getProductDetails() {
-					JSONArray jsonArray = new JSONArray();
-							JSONObject jsonObject = new JSONObject();
-							try {
-									jsonObject.put("itemname", "Gucci perfume");
-									jsonObject.put("quantity", 1);
-									jsonObject.put("amount", 1.0);
-							} catch (JSONException e) {
-									e.printStackTrace();
-							}
-							jsonArray.put(jsonObject);
-					return jsonArray;
-			}
+		JSONArray jsonArray = new JSONArray();
+		JSONObject jsonObject = new JSONObject();
+		try {
+			jsonObject.put("itemname", "Gucci perfume");
+			jsonObject.put("quantity", 1);
+			jsonObject.put("amount", 1.0);
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		jsonArray.put(jsonObject);
+		return jsonArray;
+	}
 
 	SadadOrder sadadOrder = new SadadOrder();
 	sadadOrder.setRequestParamMap(bundle);
@@ -65,7 +65,7 @@ How to Use ?
 
 	SadadService.createTransaction(HomeActivity.this, sadadOrder, new TransactionCallBack() {
 									@Override
-									public void onTransactionResponse(String inResponse) {
+									public void onTransactionResponse(String inResponse){
 
 									}
 
