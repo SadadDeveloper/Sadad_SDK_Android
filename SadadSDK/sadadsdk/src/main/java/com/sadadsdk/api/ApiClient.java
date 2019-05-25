@@ -31,7 +31,7 @@ class ApiClient {
     private static int cacheSize = 10 * 1024 * 1024; // 10 MB
     private static Retrofit retrofit = null;
 
-    static Retrofit getClient(Context context,SadadService sadadService) {
+    static Retrofit getClient(Context context, SadadService sadadService) {
 
         if (retrofit == null) {
             retrofit = new Retrofit.Builder()
@@ -45,8 +45,9 @@ class ApiClient {
     }
 
     private static OkHttpClient getOkHttpClient(final Context context) {
-
+        String UA = System.getProperty("http.agent");
         return new OkHttpClient.Builder()
+                .addInterceptor(new UserAgentInterceptor(UA))
                 .cache(new Cache(context.getCacheDir(), cacheSize))
                 .readTimeout(SOCKET_TIMEOUT_MS, TimeUnit.MILLISECONDS)
                 .connectTimeout(SOCKET_TIMEOUT_MS, TimeUnit.MILLISECONDS)

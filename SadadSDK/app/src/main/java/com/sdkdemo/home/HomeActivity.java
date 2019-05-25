@@ -191,28 +191,6 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
 
             SadadService.createTransaction(HomeActivity.this, sadadOrder, this);
 
-            SadadService.createTransaction(HomeActivity.this, sadadOrder, new TransactionCallBack() {
-                @Override
-                public void onTransactionResponse(String inResponse) {
-
-                }
-
-                @Override
-                public void onBackPressedCancelTransaction() {
-
-                }
-
-                @Override
-                public void onTransactionCancel(String errorJson) {
-
-                }
-
-                @Override
-                public void onTransactionFailed(String errorJson) {
-
-                }
-            });
-
         } else {
             showSnackBar(rootView, "Invalid Token", getString(R.string.str_ok), true, null);
         }
