@@ -3,7 +3,7 @@
 
 Steps to Integration :
 
-  Step 1. Add the JitPack repository to your peoject level build.gradle file
+  Step 1. Add the JitPack repository to your project level build.gradle file
   
     allprojects { 
       repositories { 
@@ -57,9 +57,6 @@ How to Use ?
 	2) Initiate service.
 
 	SadadService.getProductionService();
-
-	if you want to use sandbox then initiate
-	SadadService.getSandboxService();
 
 	3) Create Transaction.
 
