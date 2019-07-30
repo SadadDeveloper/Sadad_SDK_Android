@@ -1,6 +1,9 @@
 # Sadad_SDK_Android
 [![](https://jitpack.io/v/SadadDeveloper/Sadad_SDK_Android.svg)](https://jitpack.io/#SadadDeveloper/Sadad_SDK_Android)
 
+Prerequisite : 
+  Min Sdk version : 21
+  
 Steps to Integration :
 
   Step 1. Add the JitPack repository to your project level build.gradle file
@@ -17,7 +20,18 @@ Steps to Integration :
   
     dependencies {
         implementation 'com.github.SadadDeveloper:Sadad_SDK_Android:latest-version'
+	implementation 'com.google.android.material:material:1.1.0-alpha09'
     }
+    
+Step 3. Change Project App theme
+  
+   <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
     
 How to Use ?
 
