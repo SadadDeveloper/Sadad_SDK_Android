@@ -20,7 +20,7 @@ Steps to Integration :
   
     dependencies {
         implementation 'com.github.SadadDeveloper:Sadad_SDK_Android:latest-version'
-	implementation 'com.google.android.material:material:1.1.0-alpha09'
+        implementation 'com.google.android.material:material:1.1.0-alpha09'
     }
     
 Step 3. Change Project App theme
