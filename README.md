@@ -33,6 +33,23 @@ Step 3. Change Project App theme
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     
+Step 4. Add theme in Application tag in manifest
+   
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    
 How to Use ?
 
 	1) Prepare sadad Order.
