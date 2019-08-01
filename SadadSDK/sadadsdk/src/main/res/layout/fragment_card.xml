@@ -113,7 +113,7 @@
                         android:layout_marginTop="@dimen/_10sdp"
                         android:textColor="@color/colorDarkGrey" />
 
-                    <com.google.android.material.card.MaterialCardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_10sdp"
@@ -189,7 +189,6 @@
                                     style="@style/smallMaroonText"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:background="@color/colorWhite"
                                     android:drawableEnd="@drawable/ic_lock"
                                     android:imeOptions="actionNext"
                                     android:inputType="number"
@@ -317,7 +316,7 @@
 
                             </com.google.android.material.textfield.TextInputLayout>
                         </androidx.appcompat.widget.LinearLayoutCompat>
-                    </com.google.android.material.card.MaterialCardView>
+                    </androidx.cardview.widget.CardView>
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
             </androidx.core.widget.NestedScrollView>
