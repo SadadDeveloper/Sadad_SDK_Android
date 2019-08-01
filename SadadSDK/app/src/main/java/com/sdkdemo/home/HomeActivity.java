@@ -181,8 +181,8 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
             SadadOrder sadadOrder = new SadadOrder();
             sadadOrder.setRequestParamMap(bundle);
             SadadService.getProductionService();
-
 //            SadadService.getSandboxService();
+
 //            if (switchLive.isChecked()) {
 //                SadadService.getProductionService();
 //            } else {

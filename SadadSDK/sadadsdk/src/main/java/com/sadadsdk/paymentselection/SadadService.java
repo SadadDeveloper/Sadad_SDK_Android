@@ -49,7 +49,7 @@ public class SadadService implements TransactionCallBack {
         mTransactionCallBack.onTransactionFailed(errorJson);
     }
 
-    private static void getSandboxService() {
+    public static void getSandboxService() {
 
         serverUrl = ServerConfig.SERVER_SANDBOX_URL;
         creditUrl = ServerConfig.CREDIT_CARD_SANDBOX_URL;
