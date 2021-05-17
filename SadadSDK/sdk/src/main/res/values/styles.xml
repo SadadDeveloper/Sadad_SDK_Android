@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:ns1="http://schemas.android.com/apk/res-auto">
+
+    <style name="wocr_RecognizerTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/wocr_primary</item>
+        <item name="colorPrimaryDark">@color/wocr_primary_dark</item>
+        <item name="colorAccent">@color/wocr_accent</item>
+        <item name="android:windowBackground">@color/wocr_default_window_background</item>
+    </style>
+
+    <style name="wocr_RecognizerTheme.TransparentStatusBar" parent="wocr_RecognizerTheme.Base" />
+
+    <style name="wocr_RecognizerTheme" parent="wocr_RecognizerTheme.TransparentStatusBar" />
+
+    <style name="wocr_EnterManuallyButton" parent="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/wocr_manual_input_button</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize" tools:ignore="SpUsage">16dp</item>
+    </style>
+
+    <style name="wocr_PaycardsButtonTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/wocr_paycards_link_color</item>
+    </style>
+
+    <style name="wocr_PaycardsButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/wocr_paycards_link_color</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textSize" tools:ignore="SpUsage">12dp</item>
+        <item name="android:theme">@style/wocr_PaycardsButtonTheme</item>
+        <item name="android:textColorHighlight">#22ffffff</item>
+    </style>
+
+    <style name="wocr_FlashButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minWidth">32dp</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:paddingBottom">17dp</item>
+        <item name="android:scaleType">fitEnd</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@string/wocr_toggle_flash</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!--Sadad code styles-->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorDownMaroon</item>
+        <item name="colorPrimaryDark">@color/colorTitlePink</item>
+        <item name="colorAccent">@color/colorMaroon</item>
+
+
+        <!--<item name="colorControlActivated">@color/colorGrey</item>-->
+
+        <!--<item name="colorControlNormal">#AD1457</item>
+        <item name="colorControlActivated">@color/colorOrange</item>
+        <item name="colorControlHighlight">@color/colorDownPink</item>-->
+
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="transparentStyle" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="dialogStyle" parent="@style/AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowAnimationStyle">@style/CustomDialogAnimation</item>
+    </style>
+
+    <style name="dialogStyleWithoutAnimation" parent="@style/AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <!--maroon font color-->
+
+    <style name="smallMaroonText" parent="AppTheme">
+        <item name="android:textColor">@color/colorMaroon</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="smallMediumMaroonText" parent="AppTheme">
+        <item name="android:textColor">@color/colorMaroon</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="veryLargeMaroonText" parent="AppTheme">
+        <item name="android:textColor">@color/colorMaroon</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+
+    <!--White font color-->
+    <style name="verySmallWhiteText" parent="AppTheme">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="smallWhiteText" parent="AppTheme">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="largeWhiteText" parent="AppTheme">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="backgroundGreenColor">
+        <item name="colorButtonNormal">@color/colorGreen</item>
+        <item name="colorControlHighlight">@color/colorWhite</item>
+    </style>
+
+
+    <style name="bt_expiration_date_dialog_dark" parent="bt_expiration_date_dialog_sheet">
+        <item name="bt_expiration_date_sheet_background">
+            @color/bt_expiration_date_sheet_background_dark
+        </item>
+        <item name="bt_expiration_date_dialog_label">@color/bt_white_54</item>
+        <item name="bt_expiration_date_dialog_divider">@color/bt_white_12</item>
+        <item name="bt_expiration_date_scrollbar_thumb_vertical">@color/bt_white_54</item>
+        <item name="bt_expiration_date_scrollbar_track_vertical">@color/bt_white_12</item>
+    </style>
+
+    <style name="bt_expiration_date_dialog_grid_view">
+        <item name="android:layout_marginLeft">@dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginStart" ns1:targetApi="jelly_bean_mr1">
+            @dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginRight">@dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginEnd" ns1:targetApi="jelly_bean_mr1">
+            @dimen/bt_expiration_date_sheet_left_right_margin
+        </item>
+        <item name="android:layout_marginBottom">@dimen/bt_expiration_date_sheet_top_bottom_margin
+        </item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:columnWidth">72dp</item>
+    </style>
+
+    <style name="bt_expiration_date_dialog_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/bt_expiration_date_sheet_label_padding_top</item>
+        <item name="android:paddingBottom">@dimen/bt_expiration_date_sheet_label_padding_bottom
+        </item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/bt_expiration_date_dialog_label</item>
+    </style>
+
+    <style name="bt_expiration_date_dialog_light" parent="bt_expiration_date_dialog_sheet">
+        <item name="bt_expiration_date_sheet_background">
+            @color/bt_expiration_date_sheet_background_light
+        </item>
+        <item name="bt_expiration_date_dialog_label">@color/bt_black_54</item>
+        <item name="bt_expiration_date_dialog_divider">@color/bt_black_12</item>
+        <item name="bt_expiration_date_scrollbar_thumb_vertical">@color/bt_black_54</item>
+        <item name="bt_expiration_date_scrollbar_track_vertical">@color/bt_black_12</item>
+    </style>
+
+    <style name="bt_expiration_date_dialog_sheet" parent="@android:style/Theme.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/bt_expiration_date_dialog_sheet_animation
+        </item>
+    </style>
+
+    <style name="bt_expiration_date_dialog_sheet_animation">
+        <item name="android:windowEnterAnimation">@anim/bt_expiration_date_dialog_open</item>
+        <item name="android:windowExitAnimation">@anim/bt_expiration_date_dialog_close</item>
+    </style>
+
+    <style name="bt_expiration_date_dialog_year_grid_view" parent="bt_expiration_date_dialog_grid_view">
+        <item name="android:paddingRight">8dp</item>
+        <item name="paddingEnd" ns1:targetApi="jelly_bean_mr1">8dp</item>
+        <item name="paddingStart" ns1:targetApi="jelly_bean_mr1">0dp</item>
+        <item name="android:scrollbarSize">3dp</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+    </style>
+
+    <style name="hintStyle">
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="errorStyle">
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="colorButtonNormal">@color/colorMaroon</item>
+        <item name="colorControlHighlight">@color/colorWhite</item>
+        <!--<item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>-->
+    </style>
+</resources>

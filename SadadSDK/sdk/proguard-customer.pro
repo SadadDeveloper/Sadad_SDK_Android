@@ -1,0 +1,3 @@
+-keep class cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore { *; }
+-dontnote cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore
+-dontwarn cards.pay.paycardsrecognizer.sdk.**
