@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.sdkdemo.transactionstatus.TransactionStatusActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +31,7 @@
                 android:layout_marginTop="@dimen/_30sdp" />
 
 
-            <com.sdkdemo.utils.TextViewRobotoRegular
+            <cards.sdkdemo.utils.TextViewRobotoRegular
                 android:id="@+id/tvAmount"
                 style="@style/smallMaroonText"
                 android:layout_width="wrap_content"
@@ -43,13 +41,16 @@
                 android:textColor="@color/colorDarkGrey"
                 android:textSize="@dimen/_30sdp" />
 
-            <com.sdkdemo.utils.TextViewRobotoBold
+            <cards.sdkdemo.utils.TextViewRobotoBold
                 android:id="@+id/tvTransferStatus"
                 style="@style/smallMaroonText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_7sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:gravity="center"
                 android:textColor="@color/colorMedGreen"
                 android:textSize="@dimen/_13sdp" />
 
@@ -83,7 +84,6 @@
 
 
                         <LinearLayout
-                            android:id="@+id/llCompletedTime"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
@@ -100,7 +100,7 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <com.sdkdemo.utils.TextViewRobotoBold
+                                <cards.sdkdemo.utils.TextViewRobotoBold
                                     style="@style/smallMaroonText"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                                     android:text="@string/str_date_and_time_with_colon"
                                     android:textColor="@color/colorBlack" />
 
-                                <com.sdkdemo.utils.TextViewRobotoRegular
+                                <cards.sdkdemo.utils.TextViewRobotoRegular
                                     android:id="@+id/tvCompletedTime"
                                     style="@style/smallMaroonText"
                                     android:layout_width="0dp"
@@ -137,7 +137,7 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <com.sdkdemo.utils.TextViewRobotoBold
+                                <cards.sdkdemo.utils.TextViewRobotoBold
                                     style="@style/smallMaroonText"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
                                     android:text="@string/str_receiver_name_with_colon"
                                     android:textColor="@color/colorBlack" />
 
-                                <com.sdkdemo.utils.TextViewRobotoRegular
+                                <cards.sdkdemo.utils.TextViewRobotoRegular
                                     android:id="@+id/tvReceiverName"
                                     style="@style/smallMaroonText"
                                     android:layout_width="0dp"
@@ -174,7 +174,7 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <com.sdkdemo.utils.TextViewRobotoBold
+                                <cards.sdkdemo.utils.TextViewRobotoBold
                                     style="@style/smallMaroonText"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
                                     android:text="@string/str_transaction_id_with_colon"
                                     android:textColor="@color/colorBlack" />
 
-                                <com.sdkdemo.utils.TextViewRobotoRegular
+                                <cards.sdkdemo.utils.TextViewRobotoRegular
                                     android:id="@+id/tvTransactionId"
                                     style="@style/smallMaroonText"
                                     android:layout_width="0dp"
@@ -213,7 +213,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorMedGreen">
 
-            <com.sdkdemo.utils.ButtonRobotoRegular
+            <cards.sdkdemo.utils.ButtonRobotoRegular
                 android:id="@+id/btnOk"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"

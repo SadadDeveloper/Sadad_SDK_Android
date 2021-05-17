@@ -6,22 +6,26 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
+
     <application
-        android:name=".base.SdkApp"
+        android:name="cards.sdkdemo.base.SdkApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".transactionstatus.TransactionStatusActivity" />
+        <activity
+            android:name="cards.sdkdemo.transactionstatus.TransactionStatusActivity"
+            android:screenOrientation="portrait" />
 
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
         <activity
-            android:name=".home.HomeActivity"
+            android:name="cards.sdkdemo.home.HomeActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

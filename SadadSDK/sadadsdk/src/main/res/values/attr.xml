@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr format="color" name="bt_expiration_date_dialog_divider"/>
-    <attr format="color" name="bt_expiration_date_dialog_label"/>
-    <attr format="color" name="bt_expiration_date_scrollbar_thumb_vertical"/>
-    <attr format="color" name="bt_expiration_date_scrollbar_track_vertical"/>
-    <attr format="color" name="bt_expiration_date_sheet_background"/>
-</resources>

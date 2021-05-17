@@ -50,6 +50,7 @@
     <string name="str_transaction_failed">Transaction failed</string>
     <string name="str_invalid_checksum">Invalid Checksum</string>
     <string name="str_ok">OK</string>
+    <string name="str_invalid_amount">Invalid Amount</string>
 
     <string name="str_payment_success">Payment - Success</string>
     <string name="str_date_and_time_with_colon">Date and Time :</string>
