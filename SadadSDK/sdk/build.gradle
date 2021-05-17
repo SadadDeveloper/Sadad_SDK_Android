@@ -71,7 +71,7 @@ android {
     }
 
 //    resourcePrefix "wocr_"
-    ndkVersion '20.0.5594570'
+//    ndkVersion '20.0.5594570'
 }
 
 dependencies {
