@@ -37,23 +37,14 @@ import com.sdkdemo.utils.Utils;
  */
 public class HomeActivity extends BaseActivity implements View.OnClickListener, TransactionCallBack {
 
-    //    @BindView(R.id.btnPayNow)
     ButtonRobotoRegular btnPayNow;
-    //    @BindView(R.id.rootView)
     ConstraintLayout rootView;
-    //    @BindView(R.id.ivMinusOne)
     AppCompatImageView ivMinusOne;
-    //    @BindView(R.id.tvQtyOne)
     TextViewRobotoRegular tvQtyOne;
-    //    @BindView(R.id.ivPlusOne)
     AppCompatImageView ivPlusOne;
-    //    @BindView(R.id.ivMinusTwo)
     AppCompatImageView ivMinusTwo;
-    //    @BindView(R.id.tvQtyTwo)
     TextViewRobotoRegular tvQtyTwo;
-    //    @BindView(R.id.ivPlusTwo)
     AppCompatImageView ivPlusTwo;
-    //    @BindView(R.id.tvTotalAmount)
     TextViewRobotoBold tvTotalAmount;
     SwitchCompat switchLive;
 
@@ -65,7 +56,6 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        ButterKnife.bind(this);
 
         initViews();
     }
@@ -113,8 +103,6 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
     public void onClick(View v) {
         if (v == btnPayNow) {
             generateToken();
-//            Intent intent = new ScanCardIntent.Builder(this).build();
-//            startActivityForResult(intent, REQUEST_CODE_SCAN_CARD);
 
         } else if (v == ivMinusOne) {
             qtyOne = Integer.parseInt(tvQtyOne.getText().toString().trim()) < 1 ? 0 : Integer.parseInt(tvQtyOne.getText().toString().trim()) - 1;
@@ -138,13 +126,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
 
     public void generateToken() {
         String url;
-//        if (switchLive.isChecked()) {
-//            url = ServerConfig.SERVER_LIVE_URL;
-//        } else {
-//            url = ServerConfig.SERVER_SANDBOX_URL;
-//        }
-        url = ServerConfig.SERVER_LIVE_URL + ApiList.GENERATE_TOKEN  ;
-//        url=ServerConfig.SERVER_SANDBOX_URL;
+        url = ServerConfig.SERVER_LIVE_URL + ApiList.GENERATE_TOKEN;
         RestClient.getInstance().post(HomeActivity.this, url, RequestMethod.POST, true,
                 RequestCode.GENERATE_TOKEN, false,
                 new DataObserver() {
@@ -186,17 +168,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener, 
             SadadOrder sadadOrder = new SadadOrder();
             sadadOrder.setRequestParamMap(bundle);
             SadadService.getProductionService();
-//            SadadService.getProductionAzureService();
 //            SadadService.getSandboxService();
-//            SadadService.getLocalService();
-            SadadService.getTestService();
-//            SadadService.getVAPIService();
-
-//            if (switchLive.isChecked()) {
-//                SadadService.getProductionService();
-//            } else {
-//                SadadService.getSandboxService();
-//            }
 
             SadadService.createTransaction(HomeActivity.this, sadadOrder, this);
 

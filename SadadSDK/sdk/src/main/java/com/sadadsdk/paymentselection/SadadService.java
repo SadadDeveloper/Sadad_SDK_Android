@@ -44,22 +44,6 @@ public class SadadService implements TransactionCallBack {
         sadadLoginUrl = ServerConfig.SADAD_LOGIN_LIVE_URL;
     }
 
-    public static void getTestService() {
-
-        serverUrl = ServerConfig.SERVER_TEST_URL;
-        creditUrl = ServerConfig.CREDIT_CARD_TEST_URL;
-        debitUrl = ServerConfig.DEBIT_CARD_TEST_URL;
-        sadadLoginUrl = ServerConfig.SADAD_LOGIN_TEST_URL;
-    }
-
-    public static void getLocalService() {
-
-        serverUrl = ServerConfig.SERVER_LOCAL_URL;
-        creditUrl = ServerConfig.CREDIT_CARD_LOCAL_URL;
-        debitUrl = ServerConfig.DEBIT_CARD_LOCAL_URL;
-        sadadLoginUrl = ServerConfig.SADAD_LOGIN_LOCAL_URL;
-    }
-
 
     @Override
     public void onTransactionResponse(String inResponse) {
