@@ -5,7 +5,7 @@
     android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sdkdemo.cards.sdkdemo.home.HomeActivity">
+    tools:context="com.sdkdemo.com.sdkdemo.home.HomeActivity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/ic_product_one" />
 
-                <cards.sdkdemo.utils.TextViewRobotoBold
+                <com.sdkdemo.utils.TextViewRobotoBold
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -61,12 +61,12 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <cards.sdkdemo.utils.TextViewRobotoRegular
+                    <com.sdkdemo.utils.TextViewRobotoRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Amount : " />
 
-                    <cards.sdkdemo.utils.TextViewRobotoBold
+                    <com.sdkdemo.utils.TextViewRobotoBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1.00 QAR"
@@ -86,7 +86,7 @@
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/ic_minus" />
 
-                    <cards.sdkdemo.utils.TextViewRobotoRegular
+                    <com.sdkdemo.utils.TextViewRobotoRegular
                         android:id="@+id/tvQtyOne"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                     android:layout_height="@dimen/_100sdp"
                     app:srcCompat="@drawable/ic_product_two" />
 
-                <cards.sdkdemo.utils.TextViewRobotoBold
+                <com.sdkdemo.utils.TextViewRobotoBold
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -132,12 +132,12 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <cards.sdkdemo.utils.TextViewRobotoRegular
+                    <com.sdkdemo.utils.TextViewRobotoRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Amount : " />
 
-                    <cards.sdkdemo.utils.TextViewRobotoBold
+                    <com.sdkdemo.utils.TextViewRobotoBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1.00 QAR"
@@ -157,7 +157,7 @@
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/ic_minus" />
 
-                    <cards.sdkdemo.utils.TextViewRobotoRegular
+                    <com.sdkdemo.utils.TextViewRobotoRegular
                         android:id="@+id/tvQtyTwo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -181,14 +181,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <cards.sdkdemo.utils.TextViewRobotoBold
+            <com.sdkdemo.utils.TextViewRobotoBold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Total Amount : "
                 android:textSize="@dimen/_12sdp" />
 
-            <cards.sdkdemo.utils.TextViewRobotoBold
+            <com.sdkdemo.utils.TextViewRobotoBold
                 android:id="@+id/tvTotalAmount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -199,7 +199,7 @@
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <cards.sdkdemo.utils.ButtonRobotoRegular
+        <com.sdkdemo.utils.ButtonRobotoRegular
             android:id="@+id/btnPayNow"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"

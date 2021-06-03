@@ -30,7 +30,7 @@
             android:required="false" />
 
         <activity
-            android:name="cards.sadadsdk.paymentselection.PaymentSelectionActivity"
+            android:name="com.sadadsdk.paymentselection.PaymentSelectionActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
             android:theme="@style/dialogStyleWithoutAnimation"

@@ -18,7 +18,7 @@
             android:orientation="horizontal"
             android:padding="@dimen/_5sdp">
 
-            <cards.sadadsdk.utils.ButtonRobotoRegular
+            <com.sadadsdk.utils.ButtonRobotoRegular
                 android:id="@+id/btnCancel"
                 style="@style/smallWhiteText"
                 android:layout_width="@dimen/_70sdp"
@@ -27,7 +27,7 @@
                 android:text="@string/str_cancel"
                 android:theme="@style/backgroundGreenColor" />
 
-            <cards.sadadsdk.utils.TextViewRobotoRegular
+            <com.sadadsdk.utils.TextViewRobotoRegular
                 style="@style/smallWhiteText"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
                 android:gravity="center"
                 android:text="@string/str_card_details" />
 
-            <cards.sadadsdk.utils.ButtonRobotoRegular
+            <com.sadadsdk.utils.ButtonRobotoRegular
                 android:id="@+id/btnPay"
                 style="@style/smallWhiteText"
                 android:layout_width="@dimen/_70sdp"
@@ -70,7 +70,7 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <cards.sadadsdk.utils.TextViewRobotoBold
+                    <com.sadadsdk.utils.TextViewRobotoBold
                         style="@style/largeWhiteText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <cards.sadadsdk.utils.TextViewRobotoBold
+                        <com.sadadsdk.utils.TextViewRobotoBold
                             android:id="@+id/tvAmount"
                             style="@style/veryLargeMaroonText"
                             android:layout_width="wrap_content"
@@ -93,7 +93,7 @@
                             android:text="50,000"
                             android:textSize="@dimen/_40sdp" />
 
-                        <cards.sadadsdk.utils.TextViewRobotoBold
+                        <com.sadadsdk.utils.TextViewRobotoBold
                             style="@style/smallMediumMaroonText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
                             android:textColor="@color/colorDarkGrey" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
-                    <cards.sadadsdk.utils.TextViewRobotoBold
+                    <com.sadadsdk.utils.TextViewRobotoBold
                         android:id="@+id/tvEnterCardDetailLabel"
                         style="@style/smallMediumMaroonText"
                         android:layout_width="wrap_content"
@@ -139,7 +139,7 @@
                                 android:paddingEnd="@dimen/_10sdp"
                                 android:paddingBottom="@dimen/_5sdp">
 
-                                <cards.sadadsdk.utils.TextViewRobotoRegular
+                                <com.sadadsdk.utils.TextViewRobotoRegular
                                     android:id="@+id/tvCardType"
                                     style="@style/smallWhiteText"
                                     android:layout_width="0dp"
@@ -189,7 +189,7 @@
                                     app:errorTextAppearance="@style/errorStyle"
                                     app:hintTextAppearance="@style/hintStyle">
 
-                                    <!--<cards.sadadsdk.cardform.CardEditText
+                                    <!--<com.sadadsdk.cardform.CardEditText
                                         android:id="@+id/etCardNumber"
                                         style="@style/smallMaroonText"
                                         android:layout_width="match_parent"
@@ -197,7 +197,7 @@
                                         android:imeOptions="actionNext"
                                         android:paddingStart="0dp" />-->
 
-                                    <cards.sadadsdk.cardform.CardEditText
+                                    <com.sadadsdk.cardform.CardEditText
                                         android:id="@+id/etCardNumber"
                                         style="@style/smallMaroonText"
                                         android:layout_width="match_parent"
@@ -234,7 +234,7 @@
                                     app:errorTextAppearance="@style/errorStyle"
                                     app:hintTextAppearance="@style/hintStyle">
 
-                                    <cards.sadadsdk.cardform.ExpirationDateEditText
+                                    <com.sadadsdk.cardform.ExpirationDateEditText
                                         android:id="@+id/etCardExpiryDate"
                                         style="@style/smallMaroonText"
                                         android:layout_width="match_parent"
@@ -256,7 +256,7 @@
                                     app:errorTextAppearance="@style/errorStyle"
                                     app:hintTextAppearance="@style/hintStyle">
 
-                                    <cards.sadadsdk.cardform.CvvEditText
+                                    <com.sadadsdk.cardform.CvvEditText
                                         android:id="@+id/etCardCvv"
                                         style="@style/smallMaroonText"
                                         android:layout_width="match_parent"
@@ -281,7 +281,7 @@
                                 app:errorTextAppearance="@style/errorStyle"
                                 app:hintTextAppearance="@style/hintStyle">
 
-                                <cards.sadadsdk.cardform.CardholderNameEditText
+                                <com.sadadsdk.cardform.CardholderNameEditText
                                     android:id="@+id/etCardHolderName"
                                     style="@style/smallMaroonText"
                                     android:layout_width="match_parent"
@@ -304,7 +304,7 @@
                                 app:errorTextAppearance="@style/errorStyle"
                                 app:hintTextAppearance="@style/hintStyle">
 
-                                <cards.sadadsdk.cardform.MobileNumberEditText
+                                <com.sadadsdk.cardform.MobileNumberEditText
                                     android:id="@+id/etPhoneNumber"
                                     style="@style/smallMaroonText"
                                     android:layout_width="match_parent"
@@ -327,7 +327,7 @@
                                 app:errorTextAppearance="@style/errorStyle"
                                 app:hintTextAppearance="@style/hintStyle">
 
-                                <cards.sadadsdk.cardform.CustomerNameEditText
+                                <com.sadadsdk.cardform.CustomerNameEditText
                                     android:id="@+id/etCustomerName"
                                     style="@style/smallMaroonText"
                                     android:layout_width="match_parent"
