@@ -31,7 +31,7 @@
                 android:layout_marginTop="@dimen/_30sdp" />
 
 
-            <cards.sdkdemo.utils.TextViewRobotoRegular
+            <com.sdkdemo.utils.TextViewRobotoRegular
                 android:id="@+id/tvAmount"
                 style="@style/smallMaroonText"
                 android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
                 android:textColor="@color/colorDarkGrey"
                 android:textSize="@dimen/_30sdp" />
 
-            <cards.sdkdemo.utils.TextViewRobotoBold
+            <com.sdkdemo.utils.TextViewRobotoBold
                 android:id="@+id/tvTransferStatus"
                 style="@style/smallMaroonText"
                 android:layout_width="wrap_content"
@@ -100,7 +100,7 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <cards.sdkdemo.utils.TextViewRobotoBold
+                                <com.sdkdemo.utils.TextViewRobotoBold
                                     style="@style/smallMaroonText"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                                     android:text="@string/str_date_and_time_with_colon"
                                     android:textColor="@color/colorBlack" />
 
-                                <cards.sdkdemo.utils.TextViewRobotoRegular
+                                <com.sdkdemo.utils.TextViewRobotoRegular
                                     android:id="@+id/tvCompletedTime"
                                     style="@style/smallMaroonText"
                                     android:layout_width="0dp"
@@ -137,7 +137,7 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <cards.sdkdemo.utils.TextViewRobotoBold
+                                <com.sdkdemo.utils.TextViewRobotoBold
                                     style="@style/smallMaroonText"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
                                     android:text="@string/str_receiver_name_with_colon"
                                     android:textColor="@color/colorBlack" />
 
-                                <cards.sdkdemo.utils.TextViewRobotoRegular
+                                <com.sdkdemo.utils.TextViewRobotoRegular
                                     android:id="@+id/tvReceiverName"
                                     style="@style/smallMaroonText"
                                     android:layout_width="0dp"
@@ -174,7 +174,7 @@
                                 android:layout_height="match_parent"
                                 android:orientation="horizontal">
 
-                                <cards.sdkdemo.utils.TextViewRobotoBold
+                                <com.sdkdemo.utils.TextViewRobotoBold
                                     style="@style/smallMaroonText"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
                                     android:text="@string/str_transaction_id_with_colon"
                                     android:textColor="@color/colorBlack" />
 
-                                <cards.sdkdemo.utils.TextViewRobotoRegular
+                                <com.sdkdemo.utils.TextViewRobotoRegular
                                     android:id="@+id/tvTransactionId"
                                     style="@style/smallMaroonText"
                                     android:layout_width="0dp"
@@ -213,7 +213,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorMedGreen">
 
-            <cards.sdkdemo.utils.ButtonRobotoRegular
+            <com.sdkdemo.utils.ButtonRobotoRegular
                 android:id="@+id/btnOk"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"

@@ -15,7 +15,7 @@
         android:layout_height="@dimen/_150sdp"
         app:srcCompat="@drawable/ic_no_internet_connection" />
 
-    <cards.sadadsdk.utils.TextViewRobotoBold
+    <com.sadadsdk.utils.TextViewRobotoBold
         style="@style/smallWhiteText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:text="@string/str_whoops"
         android:textColor="@color/colorBlack" />
 
-    <cards.sadadsdk.utils.TextViewRobotoBold
+    <com.sadadsdk.utils.TextViewRobotoBold
         style="@style/smallWhiteText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
         android:text="@string/str_no_internet_connection_found_check_your_connection_or_try_again"
         android:textColor="@color/colorBlack" />
 
-    <cards.sadadsdk.utils.ButtonRobotoBold
+    <com.sadadsdk.utils.ButtonRobotoBold
         android:id="@+id/btnTryAgain"
         style="@style/smallWhiteText"
         android:layout_width="match_parent"
