@@ -4,11 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
 import com.google.gson.JsonObject;
-import com.sufalamtech.sadad.sdk.R;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import com.sadadsdk.api.ApiList;
 import com.sadadsdk.api.DataObserver;
 import com.sadadsdk.api.RequestCode;
@@ -16,6 +11,10 @@ import com.sadadsdk.api.RequestMethod;
 import com.sadadsdk.api.RestClient;
 import com.sadadsdk.listener.TokenReceiver;
 import com.sadadsdk.paymentselection.SadadService;
+import com.sufalamtech.sadad.sdk.R;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class Transaction extends BaseModel {
 
@@ -27,7 +26,7 @@ public class Transaction extends BaseModel {
     private int transactionstatusId;
     private int transactionmodeId;
     private int transactionentityId;
-    private String transaction_summary;
+    private JsonObject transaction_summary;
     private String hash;
     private String transactionno;
 
@@ -96,11 +95,11 @@ public class Transaction extends BaseModel {
         this.transactionentityId = transactionentityId;
     }
 
-    public String getTransaction_summary() {
+    public JsonObject getTransaction_summary() {
         return transaction_summary;
     }
 
-    public void setTransaction_summary(String transaction_summary) {
+    public void setTransaction_summary(JsonObject transaction_summary) {
         this.transaction_summary = transaction_summary;
     }
 
@@ -201,7 +200,7 @@ public class Transaction extends BaseModel {
         jsonObject.addProperty("transactionstatusId", transactionstatusId);
         jsonObject.addProperty("transactionmodeId", transactionmodeId);
         jsonObject.addProperty("transactionentityId", transactionentityId);
-        jsonObject.addProperty("transaction_summary", transaction_summary.replaceAll("\\\\", ""));
+        jsonObject.add("transaction_summary", transaction_summary);
         jsonObject.addProperty("hash", hash);
 
         return jsonObject;

@@ -44,7 +44,6 @@ public class SadadService implements TransactionCallBack {
         sadadLoginUrl = ServerConfig.SADAD_LOGIN_LIVE_URL;
     }
 
-
     @Override
     public void onTransactionResponse(String inResponse) {
         mTransactionCallBack.onTransactionResponse(inResponse);

@@ -191,7 +191,7 @@ public class PaymentSelectionActivity extends BaseActivity implements View.OnCli
         transaction.setTransactionstatusId(Constant.TRANSACTION_STATUS_ID_INPROGRESS);
         transaction.setTransactionmodeId(transactionMode);
         transaction.setTransactionentityId(Constant.TRANSACTION_ENTITY_SDK);
-        transaction.setTransaction_summary(tokenization.getRequestBody().toString());
+        transaction.setTransaction_summary(tokenization.getRequestBody());
         transaction.setHash(hash);
         transaction.checkTransactionAmount(PaymentSelectionActivity.this, this, getTransactionCallBack());
     }
@@ -230,7 +230,7 @@ public class PaymentSelectionActivity extends BaseActivity implements View.OnCli
         transaction.setTransactionstatusId(Constant.TRANSACTION_STATUS_ID_INPROGRESS);
         transaction.setTransactionmodeId(transactionMode);
         transaction.setTransactionentityId(Constant.TRANSACTION_ENTITY_SDK);
-        transaction.setTransaction_summary(tokenization.getRequestBody().toString());
+        transaction.setTransaction_summary(tokenization.getRequestBody());
         transaction.setHash(hash);
         transaction.createTransaction(PaymentSelectionActivity.this, this, getTransactionCallBack());
     }

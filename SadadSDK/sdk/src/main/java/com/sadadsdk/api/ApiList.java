@@ -12,6 +12,8 @@ public class ApiList {
 
     public static final String PATCH_TRANSACTION = "transactions/sdkpay";
 
-//    public static final String CHECK_TRANSACTION_LIMIT = "settings?filter[where][key]=sdk_min_amount";
     public static final String CHECK_TRANSACTION_LIMIT = "settings/findOne?filter[where][key]=sdk_min_amount";
+
+    public static final String CHECK_ALLOWED_COUNTRY = "usermetapreferences/checkAllowedCountry";
+
 }

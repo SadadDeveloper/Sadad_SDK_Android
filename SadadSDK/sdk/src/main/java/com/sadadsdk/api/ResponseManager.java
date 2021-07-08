@@ -29,6 +29,9 @@ class ResponseManager {
                 case CHECK_TRANSACTION:
                     object = mResponse;
                     break;
+                case CHECK_COUNTRY:
+                    object = mResponse;
+                    break;
             }
         } catch (Exception e) {
             e.printStackTrace();

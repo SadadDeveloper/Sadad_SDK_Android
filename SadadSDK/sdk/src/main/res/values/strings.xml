@@ -59,4 +59,5 @@
     <string name="str_invalid_checksum">Invalid Checksum</string>
     <string name="str_merchant_has_no_permission_to_use_sdk">Merchant has no permission to use SDK. Please contact to administrator.</string>
     <string name="str_amount_check_msg">The Given Transaction Amount is less than %s. Please try with valid amount!</string>
+    <string name="str_invalid_credit_card">Invalid credit card</string>
 </resources>

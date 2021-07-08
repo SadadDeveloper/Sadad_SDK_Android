@@ -15,7 +15,9 @@ public class ServerConfig {
 
     /*Live AWS - Sandbox URL*/
     public static final String SERVER_SANDBOX_URL = "https://msandboxapi.sadadqa.com/sdk-api/";
+    //    public static final String CREDIT_CARD_SANDBOX_URL = "https://bankapi.sadadqa.com/25/PHP_VPC_3DS%202.5%20Party_Order.php";
     public static final String CREDIT_CARD_SANDBOX_URL = "https://bankapi.sadadqa.com/ccapi/pay.php";
+    //    public static final String DEBIT_CARD_SANDBOX_URL = "https://bankapi.sadadqa.com/ezpay/step2.php";
     public static final String DEBIT_CARD_SANDBOX_URL = "https://bankapi.sadadqa.com/napsapi/pay.php";
     public static final String SADAD_LOGIN_SANDBOX_URL = "https://sadadsdk.sadadqa.com/login";
     //==================================================================================================
