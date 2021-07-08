@@ -19,15 +19,6 @@ import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
-import com.sufalamtech.sadad.sdk.R;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.Objects;
-
-import cards.pay.paycardsrecognizer.sdk.Card;
-import cards.pay.paycardsrecognizer.sdk.ScanCardIntent;
 import com.sadadsdk.api.RestClient;
 import com.sadadsdk.base.Constant;
 import com.sadadsdk.cardform.CardEditText;
@@ -46,44 +37,41 @@ import com.sadadsdk.utils.Debug;
 import com.sadadsdk.utils.TextViewRobotoBold;
 import com.sadadsdk.utils.TextViewRobotoRegular;
 import com.sadadsdk.utils.Utils;
+import com.sufalamtech.sadad.sdk.R;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Objects;
+
+import cards.pay.paycardsrecognizer.sdk.Card;
+import cards.pay.paycardsrecognizer.sdk.ScanCardIntent;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link CardFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class CardFragment extends Fragment implements View.OnClickListener, OnBackPressedEvent, TextWatcher {
+public class CardFragment extends Fragment implements View.OnClickListener, OnBackPressedEvent, TextWatcher, CardView {
 
 
     private static final String ARG_PARAM1 = "transactionResponse";
     private static SadadService mSadadService;
-    //    @BindView(R2.id.btnCancel)
     private ButtonRobotoRegular btnCancel;
-    //    @BindView(R2.id.btnPay)
     private ButtonRobotoRegular btnPay;
-    //    @BindView(R2.id.tvAmount)
     private TextViewRobotoBold tvAmount;
-    //    @BindView(R2.id.tvEnterCardDetailLabel)
     private TextViewRobotoBold tvEnterCardDetailLabel;
-    //    @BindView(R2.id.tvCardType)
     private TextViewRobotoRegular tvCardType;
-    //    @BindView(R2.id.etCardNumber)
     private CardEditText etCardNumber;
-    //    @BindView(R2.id.etCardExpiryDate)
     private ExpirationDateEditText etCardExpiryDate;
-    //    @BindView(R2.id.etCardCvv)
     private CvvEditText etCardCvv;
-    //    @BindView(R2.id.etCardHolderName)
     private CardholderNameEditText etCardHolderName;
-    //    @BindView(R2.id.etPhoneNumber)
     private MobileNumberEditText etPhoneNumber;
-    //    @BindView(R2.id.etCustomerName)
     private CustomerNameEditText etCustomerName;
-    //    @BindView(R2.id.rootView)
     private ConstraintLayout rootView;
     private AppCompatImageView ivScanCard;
-    //    private Unbinder unbinder;
     private String transactionResponse;
+    private CardPresenter presenter;
 
     public CardFragment() {
         // Required empty public constructor
@@ -111,8 +99,8 @@ public class CardFragment extends Fragment implements View.OnClickListener, OnBa
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             transactionResponse = getArguments().getString(ARG_PARAM1);
-
         }
+        presenter = new CardPresenterImpl(this);
     }
 
     @Override
@@ -179,7 +167,8 @@ public class CardFragment extends Fragment implements View.OnClickListener, OnBa
                 if (!isValid()) {
                     validate();
                 } else {
-                    ((PaymentSelectionActivity) Objects.requireNonNull(getActivity())).hideKeyboard();
+                    if (getActivity() != null)
+                        ((PaymentSelectionActivity) getActivity()).hideKeyboard();
                     btnPay.performClick();
                 }
                 return false;
@@ -202,29 +191,16 @@ public class CardFragment extends Fragment implements View.OnClickListener, OnBa
     public void onClick(View v) {
         int i = v.getId();
         if (i == R.id.btnPay) {
-            JSONObject jsonObject = new JSONObject();
+            presenter.validateCountry(getActivity(), mSadadService, etCardNumber.getText().toString().trim(), true, true);
 
-            try {
-                JSONObject transactionResponse = new JSONObject(this.transactionResponse);
-                jsonObject.put(Constant.TRANSACTION_MODE, Constant.CREDIT_CARD_TRANSACTION_MODE_ID);
-                jsonObject.put(Constant.AMOUNT, transactionResponse.optString(Constant.AMOUNT, "0.00"));
-                jsonObject.put(Constant.INVOICE_NUMBER, transactionResponse.optString("invoicenumber"));
-                jsonObject.put(Constant.CARD_NUMBER, Objects.requireNonNull(etCardNumber.getText()).toString().trim());
-                jsonObject.put(Constant.CARD_EXPIRY_DATE, DateFormatUtils.yyyyToyy("yy", etCardExpiryDate.getYear()) + etCardExpiryDate.getMonth());
-                jsonObject.put(Constant.CARD_CVV_NUMBER, Objects.requireNonNull(etCardCvv.getText()).toString().trim());
-                jsonObject.put(Constant.CARD_TYPE, getResources().getString(etCardNumber.getCardType().getCardType()));
-
-                ((PaymentSelectionActivity) Objects.requireNonNull(getActivity())).pushFragment(BankFragment.newInstance(jsonObject.toString(), ((PaymentSelectionActivity) getActivity()), mSadadService), true, false, null);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
         } else if (i == R.id.btnCancel) {
             JSONObject jsonObject;
             jsonObject = new JSONObject();
             try {
                 jsonObject.put("statusCode", RestClient.FAILURE_CODE_400);
                 jsonObject.put("message", getString(R.string.str_payment_cancelled_by_user));
-                ((PaymentSelectionActivity) Objects.requireNonNull(getActivity())).getTransactionCallBack().onTransactionCancel(jsonObject.toString());
+                if (getActivity() != null)
+                    ((PaymentSelectionActivity) getActivity()).getTransactionCallBack().onTransactionCancel(jsonObject.toString());
                 getActivity().finish();
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -252,13 +228,10 @@ public class CardFragment extends Fragment implements View.OnClickListener, OnBa
     @Override
     public void afterTextChanged(Editable s) {
 
-        if (isValid()) {
-            btnPay.setEnabled(true);
-            btnPay.setAlpha(1.0f);
-        } else {
-            btnPay.setEnabled(false);
-            btnPay.setAlpha(0.5f);
+        if (s == etCardNumber.getEditableText()) {
+            presenter.validateCountry(getActivity(), mSadadService, etCardNumber.getText().toString().trim(), false, false);
         }
+        validateForm();
     }
 
 
@@ -276,7 +249,7 @@ public class CardFragment extends Fragment implements View.OnClickListener, OnBa
 
                 etPhoneNumber.isValid() &&
 
-                etCustomerName.isValid();
+                etCustomerName.isValid() && presenter.isValidCountry();
     }
 
     /**
@@ -346,6 +319,48 @@ public class CardFragment extends Fragment implements View.OnClickListener, OnBa
 
                 }
                 break;
+        }
+    }
+
+    @Override
+    public void onSuccessOfValidCountry(boolean startBankFragment) {
+        etCardNumber.setError("");
+        if (startBankFragment) {
+            JSONObject jsonObject = new JSONObject();
+
+            try {
+                JSONObject transactionResponse = new JSONObject(this.transactionResponse);
+                jsonObject.put(Constant.TRANSACTION_MODE, Constant.CREDIT_CARD_TRANSACTION_MODE_ID);
+                jsonObject.put(Constant.AMOUNT, transactionResponse.optString(Constant.AMOUNT, "0.00"));
+                jsonObject.put(Constant.INVOICE_NUMBER, transactionResponse.optString("invoicenumber"));
+                jsonObject.put(Constant.CARD_NUMBER, Objects.requireNonNull(etCardNumber.getText()).toString().trim());
+                jsonObject.put(Constant.CARD_EXPIRY_DATE, DateFormatUtils.yyyyToyy("yy", etCardExpiryDate.getYear()) + etCardExpiryDate.getMonth());
+                jsonObject.put(Constant.CARD_CVV_NUMBER, Objects.requireNonNull(etCardCvv.getText()).toString().trim());
+                jsonObject.put(Constant.CARD_TYPE, getResources().getString(etCardNumber.getCardType().getCardType()));
+
+                if (getActivity() != null)
+                    ((PaymentSelectionActivity) getActivity()).pushFragment(BankFragment.newInstance(jsonObject.toString(), ((PaymentSelectionActivity) getActivity()), mSadadService), true, false, null);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        } else {
+            validateForm();
+        }
+    }
+
+    @Override
+    public void onErrorOfValidCountry(String error) {
+        etCardNumber.setError(error);
+        validateForm();
+    }
+
+    private void validateForm() {
+        if (isValid()) {
+            btnPay.setEnabled(true);
+            btnPay.setAlpha(1.0f);
+        } else {
+            btnPay.setEnabled(false);
+            btnPay.setAlpha(0.5f);
         }
     }
 }

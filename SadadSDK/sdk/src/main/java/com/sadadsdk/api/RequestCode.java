@@ -10,6 +10,7 @@ public enum RequestCode {
     CREATE_TRANSACTION(String.class),
     CREATE_CHECK_SUM(String.class),
     PATCH_TRANSACTION(String.class),
+    CHECK_COUNTRY(String.class),
     CHECK_TRANSACTION(String.class);
 
     Class mLocalClass;
