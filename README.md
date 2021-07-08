@@ -158,7 +158,7 @@ After downloading and setting up SDK, below are some code snippets which might b
 
 		}
 		
-In the above **onTransactionResponse(String inResponse)** you will notice the **transactionStatusId** variable. 
+In the above **public void onTransactionResponse(String inResponse)** you will notice the **transactionStatusId** variable. 
 Your transaction is successful or failed is depends on it. The codes are stated belows :
 
 transactionStatusId = 3 means the transaction got success
