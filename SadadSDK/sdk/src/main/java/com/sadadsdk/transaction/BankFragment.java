@@ -13,14 +13,6 @@ import android.webkit.WebViewClient;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.sufalamtech.sadad.sdk.R;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-
 import com.sadadsdk.base.Constant;
 import com.sadadsdk.listener.OnBackPressedEvent;
 import com.sadadsdk.listener.TokenReceiver;
@@ -28,6 +20,13 @@ import com.sadadsdk.model.Transaction;
 import com.sadadsdk.paymentselection.SadadService;
 import com.sadadsdk.utils.Debug;
 import com.sadadsdk.utils.Utils;
+import com.sufalamtech.sadad.sdk.R;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -109,7 +108,7 @@ public class BankFragment extends Fragment implements OnBackPressedEvent {
         wvBankAPI.clearHistory();
         wvBankAPI.clearCache(true);
 
-        wvBankAPI.addJavascriptInterface(new JavaScriptInterface(this, wvBankAPI), "MyHandler");
+        wvBankAPI.addJavascriptInterface(new JavaScriptInterface(this), "MyHandler");
 
         postData();
     }
@@ -161,9 +160,7 @@ public class BankFragment extends Fragment implements OnBackPressedEvent {
             Debug.trace("PostData", postData);
             wvBankAPI.postUrl(url, postData.getBytes());
 
-        } catch (JSONException e) {
-            e.printStackTrace();
-        } catch (UnsupportedEncodingException e) {
+        } catch (JSONException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
 
@@ -181,7 +178,7 @@ public class BankFragment extends Fragment implements OnBackPressedEvent {
     }
 
 
-    void javascriptCallFinished(String value) {
+    void javascriptCallForCreditCardFinished(String value) {
 
         JSONObject jsonObject;
         Transaction transaction = new Transaction();
@@ -189,6 +186,9 @@ public class BankFragment extends Fragment implements OnBackPressedEvent {
         try {
             jsonObject = new JSONObject(value);
             transaction.setTransactionno(jsonObject.optString("vpc_MerchTxnRef"));
+
+            double amount = Double.parseDouble(jsonObject.optString("vpc_Amount", "0")) / 100;
+            transaction.setAmount(String.valueOf(amount));
 
             if (jsonObject.optString("vpc_Message").equalsIgnoreCase("Approved")) {
 
@@ -205,7 +205,7 @@ public class BankFragment extends Fragment implements OnBackPressedEvent {
         transaction.patchTransaction(getActivity(), mTokenReceiver, mSadadService);
     }
 
-    void javascriptCallForDebitFinished(String value) {
+    void javascriptCallForDebitCardFinished(String value) {
 
         JSONObject jsonObject;
 
@@ -214,6 +214,9 @@ public class BankFragment extends Fragment implements OnBackPressedEvent {
             Log.e("Response: ", "-> " + value);
             jsonObject = new JSONObject(value);
             transaction.setTransactionno(jsonObject.optString("Response_PUN"));
+
+            double amount = Double.parseDouble(jsonObject.optString("Response_Amount", "0")) / 100;
+            transaction.setAmount(String.valueOf(amount));
 
             if (jsonObject.optString("Response_StatusMessage").equalsIgnoreCase("Payment processed successfully.")) {
 

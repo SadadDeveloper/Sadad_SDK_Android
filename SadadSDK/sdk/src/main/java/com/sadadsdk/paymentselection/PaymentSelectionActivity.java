@@ -17,11 +17,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.sufalamtech.sadad.sdk.R;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import com.sadadsdk.api.RestClient;
 import com.sadadsdk.base.BaseActivity;
 import com.sadadsdk.base.Constant;
@@ -35,6 +30,10 @@ import com.sadadsdk.sadad.SadadFragment;
 import com.sadadsdk.transaction.BankFragment;
 import com.sadadsdk.utils.ToastUtils;
 import com.sadadsdk.utils.Utils;
+import com.sufalamtech.sadad.sdk.R;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 /**
@@ -356,7 +355,8 @@ public class PaymentSelectionActivity extends BaseActivity implements View.OnCli
 
     @Override
     public void onPatchTransactionFailed(String errorMsg) {
-        getTransactionCallBack().onTransactionFailed(errorMsg);
+        failedResult(errorMsg, RestClient.FAILURE_CODE_430);
+//        getTransactionCallBack().onTransactionFailed(errorMsg);
         finish();
     }
 

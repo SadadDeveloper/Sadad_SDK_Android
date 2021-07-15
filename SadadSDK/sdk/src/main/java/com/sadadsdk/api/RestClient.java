@@ -45,10 +45,12 @@ public class RestClient {
     public final static int FAILURE_CODE_500 = 500;
     public static final int FAILURE_CODE_422 = 422;
     public final static int FAILURE_CODE_403 = 403;
+    public static final int FAILURE_CODE_430 = 430;
 
     public static final int SUCCESS_CODE = 200;
     public static final int SUCCESS_CODE_304 = 304;
     public static final int SUCCESS_CODE_204 = 204;
+
 
     private static final RestClient ourInstance = new RestClient();
 
