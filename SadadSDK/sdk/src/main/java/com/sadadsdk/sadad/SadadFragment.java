@@ -108,7 +108,7 @@ public class SadadFragment extends Fragment implements OnBackPressedEvent {
             }
         });
 
-        wvSadad.addJavascriptInterface(new JavaScriptInterface(this, wvSadad), "MyHandler");
+        wvSadad.addJavascriptInterface(new JavaScriptInterface(this), "MyHandler");
 
         buildPostData();
     }

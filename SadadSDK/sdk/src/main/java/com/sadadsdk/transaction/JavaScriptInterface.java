@@ -11,28 +11,24 @@ public class JavaScriptInterface {
     private BankFragment bankFragment;
     private SadadFragment sadadFragment;
 
-    private WebView mWebView;
-
-    JavaScriptInterface(BankFragment fragment, WebView _webView) {
+    JavaScriptInterface(BankFragment fragment) {
         bankFragment = fragment;
-        mWebView = _webView;
     }
 
-    public JavaScriptInterface(SadadFragment fragment, WebView _webView) {
+    public JavaScriptInterface(SadadFragment fragment) {
         sadadFragment = fragment;
-        mWebView = _webView;
     }
 
     @JavascriptInterface
     public void setResult(String val) {
         Debug.trace("JavaScriptInterfaceCalled : Credit", val);
-        this.bankFragment.javascriptCallFinished(val);
+        this.bankFragment.javascriptCallForCreditCardFinished(val);
     }
 
     @JavascriptInterface
     public void setResultDebitCard(String val) {
         Debug.trace("JavaScriptInterfaceCalled : Debit", val);
-        this.bankFragment.javascriptCallForDebitFinished(val);
+        this.bankFragment.javascriptCallForDebitCardFinished(val);
     }
 
     @JavascriptInterface

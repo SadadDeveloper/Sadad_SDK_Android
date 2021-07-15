@@ -211,6 +211,7 @@ public class Transaction extends BaseModel {
         JsonObject jsonObject = new JsonObject();
         jsonObject.addProperty("transactionno", transactionno);
         jsonObject.addProperty("transactionstatusId", transactionstatusId);
+        jsonObject.addProperty("amount", amount);
         return jsonObject;
     }
 }
